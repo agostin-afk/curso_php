@@ -1,7 +1,7 @@
 <?php
 
 class Pessoa{
-    //public $nome;
+    public $nome;
     function falar(){
         echo "Tô falando";
     }
