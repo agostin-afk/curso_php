@@ -4,6 +4,12 @@
     if(!$_POST['nome']){
         $validacoes[] = 'por favor, insira um nome de usuario';
     }
+    if($_POST['email'] == ''){
+        $validacoes[] = 'por favor, insira um email de usuario';
+    }
+    if($_POST['senha'] != $_POST['confirm_senha']){
+        $validacoes[] = 'insira senhas iguais';
+    }
    } 
 
 ?>
